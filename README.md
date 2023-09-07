@@ -16,17 +16,9 @@ You can install the AI Chat Payload Plugin using one of the following methods:
 
 ```shell
 pnpm add payload-plugin-ai-chat
-```
-
-or
-
-```shell
+// or
 yarn add payload-plugin-ai-chat
-```
-
-or
-
-```shell
+// or
 npm i payload-plugin-ai-chat
 ```
 
@@ -37,6 +29,8 @@ To use the AI Chat Payload Plugin, follow these steps:
 1. Add the plugin to the plugins array in your Payload config file.
 2. Configure the plugin options, including the collections you want to enable the AI Chat functionality for.
 3. Set other options such as the group name, group label, and defaults for AI chat parameters.
+4. Rename `.env.example` -> `.env`
+5. Set environment variable `OPENAI_API_KEY`. [How to generate your API KEY ?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)
 
 Here's an example of how to configure the plugin in your Payload config file:
 
