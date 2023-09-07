@@ -42,7 +42,7 @@ Here's an example of how to configure the plugin in your Payload config file:
 
 ```javascript
 import { buildConfig } from 'payload/config';
-import aiChat from 'payload-plugin-ai-chat';
+import { aiChat } from 'payload-plugin-ai-chat'
 
 const config = buildConfig({
   collections: ['chats'],
